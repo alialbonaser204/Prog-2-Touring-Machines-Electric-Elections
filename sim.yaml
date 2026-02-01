@@ -1,0 +1,26 @@
+name: sim
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=23.2.*
+  - pyarrow=13.0.*
+  - pygame=2.5.*
+  - python=3.12.*
+  - pip:
+      - ipython==8.16.*
+      - ipykernel==6.25.*
+      - jupyterlab==4.0.*
+      - matplotlib==3.8.*
+      - mesa==2.1.*
+      - numpy==1.26.*
+      - pandas==2.1.*
+      - pygame-ce==2.3.*
+      - python-box==7.1.*
+      - pytz==2023.3.*
+      - pyyaml==6.0.*
+      - scipy==1.11.*
+      - simpy==4.0.*
+      - sympy==1.11.*
+      - tzdata==2023.3
